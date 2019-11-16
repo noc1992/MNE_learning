@@ -28,9 +28,10 @@
      
 # 3. 불량 데이터 스팬 거부
   3-1 잘못된 데이터에 범위 주석 달기
-     1) reject_by_annotation
-     2) 프로그래밍 방식의 주석
-        - find_eog_events(), find_ecg_events()
+     - reject_by_annotation
+     - 프로그래밍 방식의 주석
+     - find_eog_events(), find_ecg_events()
+     
   3-2 채널 진폭에 기초한 에폭 거부
-     1) reject, flat
-     2) drop_bad
+     - reject, flat
+     - drop_bad
