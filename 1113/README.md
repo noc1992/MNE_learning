@@ -1,5 +1,5 @@
 # 1. 아티팩트(인공물) 처리
-  3-1아티팩트란 관심있는 소스 이외의 소스에서 발생하는 기록된 신호의 일부. 간섭 잡음 등
+  1-1아티팩트란 관심있는 소스 이외의 소스에서 발생하는 기록된 신호의 일부. 간섭 잡음 등
    - 환경적 아티팩트
      1) AC전력선 주파수를 중심으로 한 지속적 진동
      2) 근처 엘리베이터, 휴대폰, 지 자기장등의 전자기장 노이즈
@@ -28,10 +28,10 @@
      
 # 3. 불량 데이터 스팬 거부
   3-1 잘못된 데이터에 범위 주석 달기
-     - reject_by_annotation
-     - 프로그래밍 방식의 주석
-     - find_eog_events(), find_ecg_events()
+   - reject_by_annotation
+   - 프로그래밍 방식의 주석
+   - find_eog_events(), find_ecg_events()
      
   3-2 채널 진폭에 기초한 에폭 거부
-     - reject, flat
-     - drop_bad
+   - reject, flat
+   - drop_bad
