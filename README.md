@@ -24,3 +24,13 @@
     - SSP와 아티팩트 복구 
     - EEG 기준 설정 
     - SSS와 멕스웰 필터링 / 
+### 1119 주파수 및 시간 주파수 센서 분석
+    - mne.time_frequency : tfr_morlet, psd_multitaper, psd_welch
+    
+### 1120 MNE 패키지의 전반적 기초
+    - 데이터 로드 :  mne.datasets.sample.data_path() 
+    - reject
+    - vis_epochs.average(), aud_epochs.average()
+    - 역 모델링 
+        1) mne.minimum_norm.read_inverse_operator, mne.minimum_norm.apply_inverse
+        2) stc.plot
